@@ -1,0 +1,27 @@
+/* FlashcardBackCreateOrEditComponent.module.css */
+.backContainer {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.typeButtonsRow {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.backList {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.errorMessage {
+  color: red;
+}

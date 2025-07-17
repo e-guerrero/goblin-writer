@@ -1,0 +1,56 @@
+/* FlashcardFrontCreateOrEditComponent.module.css */
+.frontContainer {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.scrollableForm {
+  overflow-y: auto;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.formGroup {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formGroup label {
+  margin-bottom: 4px;
+}
+
+.previewImage {
+  max-width: 200px;
+  margin-top: 8px;
+}
+
+.previewVideo {
+  max-width: 200px;
+  margin-top: 8px;
+}
+
+.previewAudio {
+  margin-top: 8px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+
+input[type="checkbox"] {
+  /* all: unset;  */
+  appearance: checkbox;
+  /* width: 16px;
+  height: 16px; */
+}

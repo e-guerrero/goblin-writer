@@ -1,0 +1,50 @@
+/* FlashcardBackListItemComponent.module.css */
+.listItemContainer {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.textarea {
+  min-height: 50px;
+  resize: vertical;
+  padding: 4px;
+}
+
+.filePreview {
+  margin-top: 8px;
+}
+
+.previewImage {
+  max-width: 150px;
+}
+
+.previewVideo {
+  max-width: 150px;
+}
+
+.fileName {
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 4px;
+}

@@ -1,0 +1,22 @@
+/* FlashcardCreateOrEditPage.module.css */
+.pageContainer {
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentArea {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100svw;
+}
+
+.bottomBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #f8f8f8;
+}

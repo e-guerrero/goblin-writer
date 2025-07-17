@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
+.header {
+  font-size: 3em;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 10px;
+}
+.input {
+  padding: 8px;
+  font-size: 1em;
+  color: whitesmoke; /* Light grey color for placeholder */
+  background-color: rgb(144, 121, 233);
+  border: 1px solid #070404; /* Light border color */
+  border-radius: 4px; /* Rounded corners */
+}
+.datePickerContainer {
+  position: relative;
+  overflow: visible; /* Ensure no clipping */
+  width: auto; /* Allow the container to resize as needed */
+}
+.datePickerInput {
+  width: 100%;
+  padding: 10px 15px; /* Adjust padding to make it more button-like */
+  font-size: 1em;
+  border: 1px solid #ccc; /* Border to define the button's boundary */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Background color for the button */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+  box-sizing: border-box; /* Include padding in the element's total width/height */
+  transition: background-color 0.3s ease; /* Add smooth transition on hover */
+}
+
+/* On hover, change the background color for the button */
+.datePickerInput:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.datePickerCalendar {
+  max-width: 300px; /* Adjust the width of the calendar popup */
+  z-index: 9999; /* Ensure calendar is above other elements */
+}
+.radioContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.radioInput {
+  appearance: auto;
+  cursor: pointer;
+}
+.button {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
